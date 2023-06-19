@@ -1,0 +1,98 @@
+* {
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(139, 21, 21);
+    font-size: 36px;
+    margin: 0 28px;
+    font-family: monospace;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.title {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: cursive;
+    font-size: 59px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 23px;
+    border-radius: 12px;
+}
+
+img {
+    display: inline-block;
+    margin-left: 23px;
+    vertical-align: top;
+    width: 37%;
+    border-radius: 33px;
+    margin-top: 10px;
+}
+
+.dischead {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 47px;
+    font-weight: bold;
+    margin-top: 54px;
+    width: 133%;
+}
+
+.description {
+    display: inline-block;
+    width: 45%;
+}
+
+.disc {
+    background-color: yellow;
+    border: 3px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 13px;
+    width: 126%;
+    border-radius: 25px;
+    box-shadow: 6px 6px;
+}
+
+.head {
+    font-size: 45px;
+    font-family: monospace;
+    width: 21%;
+    text-align: center;
+    border-left: 7px solid rgb(255, 24, 24);
+    margin-left: 32px;
+    background-color: lightblue;
+    display: inline-block;
+    margin-right: 56px;
+    margin-top: 38px;
+    vertical-align: top;
+    box-shadow: 10px 10px;
+}
+
+.list {
+    font-size: 24px;
+    font-family: fantasy;
+    color: darkred;
+    background-color: ivory;
+    width: 64%;
+    margin: 58px 82px 58px auto;
+    padding: 36px;
+    border-radius: 27px;
+    box-shadow: 11px 11px;
+    display: inline-block;
+}
+.links:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: red;
+    text-decoration: underline;
+}
